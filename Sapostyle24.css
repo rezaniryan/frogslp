@@ -1,0 +1,36 @@
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.circle {
+    border-radius: 50%;
+}
+
+
+.cat {
+    border: 10px solid red;
+}
+
+
+.horse {
+    border: 10px solid blue;
+}
+
+
+.camel {
+    border: 10px solid green;
+}
+
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+
+}

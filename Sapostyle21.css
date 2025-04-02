@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.circle {
+    border-radius: 50%;
+}
+
+
+.cat {
+    border: 10px solid red;
+}
+
+
+.horse {
+    border: 10px solid blue;
+}
+
+
+.camel {
+    border: 10px solid green;
+}
+
+
+main{
+    height: 100vh;
+    display: flex;
+    align-content: flex-start;
+    /* flex-wrap: wrap; */
+    /* justify-content: end; */
+    /* align-items: first end; */
+    /* flex-direction: column; */
+
+
+}
